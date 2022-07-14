@@ -1,0 +1,429 @@
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    outline: 0;
+    font-size: 100%;
+    vertical-align: baseline;
+    background: #eaeff1;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1{
+    font-size: 55px;
+}
+
+h2{
+    font-size: 40px;
+}
+
+h3{
+    font-size: 30px;
+}
+
+h4{font-size: 25px;}
+
+h5{font-size: 18px;}
+
+nav{
+    width: 90%;
+    margin: auto;
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+}
+
+.neu{
+    border-radius: 50px;
+    background: #eaeff1;
+    box-shadow:  20px 20px 20px #bbbfc1,
+             -20px -20px 20px #fdfdfd;
+}
+
+.navigation{
+    width: 25%;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navigation a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+}
+
+.banner{
+    width: 80%;
+    height: 80vh;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.banner-left{
+    width: 50%;
+    border-right: 3px solid rgb(5, 155, 255);
+}
+
+.banner-right{
+    width: 50%;
+    padding: 0px 50px;
+    color: gray;
+}
+
+.features{
+    width: 80%;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+    text-align: center;
+}
+
+.features p{
+    padding-top: 10px;
+}
+
+.feature-container{
+    display: flex;
+    justify-content: space-evenly;
+    padding-top: 50px;
+}
+
+.feature{
+    width: 270px;
+    padding: 50px 20px;
+}
+
+.feature h4{
+    padding: 15px 0px;
+}
+
+.about{
+    width: 80%;
+    margin: auto;
+    display: flex;
+}
+
+.company-motto, .motto-text{
+    width: 50%;
+}
+
+.products{
+    width: 80%;
+    padding: 75px 0px;
+    margin: auto;
+    text-align: center;
+}
+
+.products-container{
+    padding-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.product{
+    width: 40%;
+    padding: 40px;
+    margin: 25px 0px;
+}
+
+.product span{
+    color: gray;
+    font-size: 25px;
+}
+
+.product p{
+    padding: 15px 0px 10px;
+}
+
+.product .pricing{
+    display: flex;
+    justify-content: space-between;
+}
+
+.events{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.events h2{
+    padding: 50px 0px;
+}
+
+.events-container{
+    display: flex;
+    justify-content: space-between;
+}
+
+.event {
+    width: 44%;
+    padding: 20px 20px 40px 20px;
+    text-align: left;
+}
+
+.event img{
+    width: 100%;
+    padding-bottom: 10px;
+    border-radius: 35px;
+}
+
+.event span{
+    color: gray;
+    padding: 10px 0px;
+    font-size: 20px;
+}
+
+.event p{
+    padding: 15px 0px;
+}
+
+.event a{
+    text-decoration: none;
+    color: rgb(5, 155, 255);
+    font-weight: 500;
+    font-size: 20px;
+    padding-bottom: 30px;
+}
+
+.team{
+    padding-top: 150px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.member{
+    width: 90%;
+    margin: 50px auto;
+    padding: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    text-align: left;
+}
+
+.member img{
+    width: 125px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.member span{
+    font-size: 20px;
+    color: gray;
+}
+
+.info{
+    width: 32%;
+    justify-content: space-between;
+    display: flex;
+    align-items: center;
+}
+
+.secure-features{
+    width: 80%;
+    margin: auto;
+    padding: 100px 0px 150px;
+    display: flex;
+}
+
+.secure-features span{
+    font-size: 20px;
+    color: gray;
+}
+
+.secure-features p{
+    color: gray;
+}
+
+.text-container, .bars-container{
+    width: 50%;
+}
+
+.text-container{
+    padding-right: 50px;
+}
+
+.bar-container {
+    margin: 20px 0px;
+}
+
+.bar-title{
+    padding: 10px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.bar{
+    height: 10px;
+    border-radius: 3px;
+    background-color: rgb(168, 166, 166);
+}
+
+.upper-bar{
+    background-color: rgb(5, 155, 255);
+    height: 100%;
+    border-radius: 3px 0px 0px 3px;
+}
+
+#smart-home{
+    width: 92%;
+}
+#cyber-security{
+    width: 71%;
+}
+#cctv{
+    width: 53%;
+}
+
+.gallery{
+    width: 80%;
+    margin: auto;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+}
+
+.img-holder{
+    display: flex;
+    flex-direction: column;
+    color: gray;
+    font-size: 20px;
+    width: 45%;
+}
+.gallery img{
+    width: 100%;
+    margin-bottom: 35px;
+}
+
+.faqs{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.faq{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    margin: 50px 0px;
+    font-size: 18px;
+    color: gray;
+}
+.faq object{
+    padding: 15px;
+}
+
+.testimonials{
+    padding: 100px 0px;
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.testimonial-holder{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+    padding: 50px 0px;
+}
+
+.testimonial{
+    width: 41%;
+    padding: 35px;
+}
+
+.testimonial p, .testimonial span{
+    color: gray;
+    font-size: 18px;
+}
+
+.client-info{
+    display: flex;
+    padding: 30px 0px 20px 0px;
+}
+
+.client-info img{
+    width: 75px;
+    height: auto;
+    border-radius: 50%;
+}
+
+.client-name{
+    padding: 0px 20px;
+}
+
+.contacts{
+    width: 80%;
+    margin: auto;
+    text-align: center;
+}
+
+.contacts p, .contacts span{
+    color: gray;
+    font-size: 18px;
+}
+
+.contact-holder{
+    padding: 50px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact{
+    width: 22%;
+    padding: 40px;
+}
+
+.subscribe{
+    width: 50%;
+    padding: 100px 0px 150px;
+    margin: auto;
+    text-align: center;
+}
+
+.subscribe p{
+    padding: 30px 0px 50px 0px;
+}
+
+.subscribe form{
+    text-align: left;
+    display: flex;
+    justify-content: space-between;
+}
+
+input[type=email]{
+    background-color: rgb(221, 217, 217);
+    width: 72%;
+    height: 50px;
+    border-radius: 30px;
+    padding:0px 20px;
+    border-top: 2px solid rgb(170, 170, 170);
+    border-left: 2px solid rgb(170, 170, 170);
+}
+
+button[type=submit]{
+    width: 20%;
+    float: right;
+    background-color: rgb(5, 155, 255);
+    height: 50px;
+    border-radius: 30px;
+    color: white;
+    font-weight: 500;
+}
+
+footer{
+    color: gray;
+    text-align: center;
+    font-size: 18px;
+    padding: 20px 0px;
+}
